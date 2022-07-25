@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="cn.loong38.game.shudu.HelloController" stylesheets="@main.css">
+    <HBox spacing="20.0" alignment="CENTER">
+        <Button text="检查(c)" fx:id="query_game"></Button>
+        <Button text="新游戏" fx:id="new_game"></Button>
+        <RadioButton text="入门" fx:id="primary" selected="true"></RadioButton>
+        <RadioButton text="简单" fx:id="simple"></RadioButton>
+        <RadioButton text="困难" fx:id="difficult"></RadioButton>
+    </HBox>
+
+    <VBox fx:id="main" styleClass="main_col" alignment="CENTER">
+        <HBox styleClass="main_row" alignment="CENTER">
+            <VBox styleClass="block_1">
+                <HBox>
+                    <VBox>
+                        <Button text="b1_1"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="b1_2"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="b1_3"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="b1_4"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="b1_5"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="b1_6"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="b1_7"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="b1_8"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="b1_9"></Button>
+                    </VBox>
+                </HBox>
+            </VBox>
+            <VBox styleClass="block_2">
+                <HBox>
+                    <VBox>
+                        <Button text="1"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="2"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="3"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="4"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="5"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="6"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="7"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="8"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="9"></Button>
+                    </VBox>
+                </HBox>
+            </VBox>
+            <VBox styleClass="block_3">
+                <HBox>
+                    <VBox>
+                        <Button text="1"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="2"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="3"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="4"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="5"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="6"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="7"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="8"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="9"></Button>
+                    </VBox>
+                </HBox>
+            </VBox>
+        </HBox>
+        <HBox styleClass="main_row" alignment="CENTER">
+            <VBox styleClass="block_4">
+                <HBox>
+                    <VBox>
+                        <Button text="1"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="2"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="3"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="4"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="5"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="6"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="7"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="8"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="9"></Button>
+                    </VBox>
+                </HBox>
+            </VBox>
+            <VBox styleClass="block_5">
+                <HBox>
+                    <VBox>
+                        <Button text="1"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="2"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="3"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="4"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="5"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="6"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="7"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="8"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="9"></Button>
+                    </VBox>
+                </HBox>
+            </VBox>
+            <VBox styleClass="block_6">
+                <HBox>
+                    <VBox>
+                        <Button text="1"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="2"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="3"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="4"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="5"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="6"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="7"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="8"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="9"></Button>
+                    </VBox>
+                </HBox>
+            </VBox>
+        </HBox>
+        <HBox styleClass="main_row" alignment="CENTER">
+            <VBox styleClass="block_7">
+                <HBox>
+                    <VBox>
+                        <Button text="1"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="2"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="3"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="4"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="5"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="6"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="7"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="8"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="9"></Button>
+                    </VBox>
+                </HBox>
+            </VBox>
+            <VBox styleClass="block_8">
+                <HBox>
+                    <VBox>
+                        <Button text="1"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="2"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="3"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="4"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="5"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="6"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="7"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="8"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="9"></Button>
+                    </VBox>
+                </HBox>
+            </VBox>
+            <VBox styleClass="block_9">
+                <HBox>
+                    <VBox>
+                        <Button text="1"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="2"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="3"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="4"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="5"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="6"></Button>
+                    </VBox>
+                </HBox>
+                <HBox>
+                    <VBox>
+                        <Button text="7"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="8"></Button>
+                    </VBox>
+                    <VBox>
+                        <Button text="9"></Button>
+                    </VBox>
+                </HBox>
+            </VBox>
+        </HBox>
+    </VBox>
+</VBox>

@@ -1,0 +1,21 @@
+.main_row,.main_col{
+    -fx-spacing:10;
+}
+.main_row>VBox HBox,HBox>VBox{
+    -fx-spacing:5;
+}
+#main{
+    -fx-background-color:rgba(100, 100, 100,0.5);
+}
+.main_row>VBox>HBox>VBox>Button{
+    -fx-font-size:20;
+    -fx-font-weight:bolder;
+    -fx-text-fill:blue;
+    -fx-background-color:white;
+}
+.main_row>VBox>HBox>VBox>Button:disabled{
+    -fx-opacity:1;
+}
+.main_row>VBox>HBox>VBox>Button:focused{
+    -fx-background-color: -fx-focus-color, -fx-inner-border;
+}

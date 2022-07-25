@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b8bb04a-3d60-497e-ab1e-bc93fd09154e" name="变更" comment="a">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_11_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shudu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/GameQuery01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/Main01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/Main02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/Main02Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/core/GameCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/fxml/GameBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/fxml/GameBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/ArrayButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/ArrayData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/ArrayInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/ArrayString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/ButtonEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/GameButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/GameButtonInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/GameInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/RandomCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/GameCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/ShuD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cn/loong38/game/shudu/Main01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cn/loong38/game/shudu/Main01.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cn/loong38/game/shudu/Main02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cn/loong38/game/shudu/Main02.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cn/loong38/game/shudu/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cn/loong38/game/shudu/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/GameQuery01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/HelloApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/Main01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/Main01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/Main01.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/Main02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/Main02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/Main02.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/Main02Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/core/GameCore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/fxml/GameBlock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/fxml/GameBody.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/Array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/ArrayButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/ArrayInteger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/ArrayString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/Block.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/ButtonEvent$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/ButtonEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/Col.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/GameButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/GameButtonInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/GameInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/RandomCreate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/loong38/game/shudu/tools/Row.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/GameCore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/ShuD$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/ShuD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/explainListenerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/messageListenerClass.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/GameInit.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/core/GameCore.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/GameButtonInit.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/fxml/GameBody.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/fxml/GameBlock.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/cn/loong38/game/shudu/Main02.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/Main02.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/HelloApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/ArrayString.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/Main02Controller.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/cn/loong38/game/shudu/Main01.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/cn/loong38/game/shudu/Main02.fxml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2BqygJK5QUOs7dfxVgi790ETMcw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.loong38.game.shudu.tools" />
+      <recent name="cn.loong38.game.shudu" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\liuzh\Desktop\demo\java_project\shudu\src\main\java\cn\loong38\game\shudu\tools" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.loong38.game.shudu.tools" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.loong38.game.shudu.core" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="desktop" />
+    </option>
+  </component>
+  <component name="RunManager" selected="应用程序.Main02">
+    <configuration name="ArrayData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.loong38.game.shudu.tools.ArrayData" />
+      <module name="shudu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.loong38.game.shudu.tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameCore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.GameCore" />
+      <module name="shudu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameInit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.loong38.game.shudu.tools.GameInit" />
+      <module name="shudu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.loong38.game.shudu.tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.loong38.game.shudu.Main02" />
+      <module name="shudu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.loong38.game.shudu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShuD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ShuD" />
+      <module name="shudu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Main02" />
+        <item itemvalue="应用程序.GameInit" />
+        <item itemvalue="应用程序.GameCore" />
+        <item itemvalue="应用程序.ShuD" />
+        <item itemvalue="应用程序.ArrayData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\liuzh\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9b8bb04a-3d60-497e-ab1e-bc93fd09154e" name="变更" comment="" />
+      <created>1657648025530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657648025530</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="BEK_SORT_TYPE" value="1" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/Main01.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/GameButtonInit.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/tools/GameButtonInit.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/ShuD.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/GameCore.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/loong38/game/shudu/Main02.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="cn.loong38.game.shudu.tools.Col" memberName="value" />
+        <PinnedItemInfo parentTag="cn.loong38.game.shudu.tools.Row" memberName="value" />
+        <PinnedItemInfo parentTag="cn.loong38.game.shudu.tools.ArrayData" memberName="doubleToBlockIndex" />
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
+        <PinnedItemInfo parentTag="javafx.scene.control.Button" memberName="text" />
+        <PinnedItemInfo parentTag="java.util.ArrayList" memberName="elementData" />
+        <PinnedItemInfo parentTag="cn.loong38.game.shudu.tools.Col" memberName="gbi" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/shudu$Main02.ic" NAME="Main02 覆盖结果" MODIFIED="1658146562083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.loong38.game.shudu.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/shudu$GameButtonInit.ic" NAME="GameButtonInit 覆盖结果" MODIFIED="1657878194726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.loong38.game.shudu.tools.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/shudu$AbstractData.ic" NAME="AbstractData 覆盖结果" MODIFIED="1658136941354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.loong38.game.shudu.tools.*</FILTER>
+    </SUITE>
+  </component>
+</project>

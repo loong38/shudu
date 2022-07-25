@@ -1,0 +1,20 @@
+#body{
+	-fx-background-color:rgba(169,169,169,0.8);
+	-fx-padding:20;
+}
+
+.gameButton:focused{
+     -fx-background-color: -fx-focus-color, -fx-inner-border;
+}
+.gameButton:disabled{
+	-fx-text-fill:rgb(0,0,0);
+	-fx-background-color:rgba(	245,245,245,0.9);
+	-fx-opacity: 1;
+}
+
+.gameButton{
+	-fx-font-size:20;
+	-fx-font-weight:bolder;
+	-fx-text-fill:blue;
+	-fx-background-color:white;
+}

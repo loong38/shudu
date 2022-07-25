@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import cn.loong38.game.shudu.fxml.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="cn.loong38.game.shudu.Main01"
+      prefHeight="400.0" prefWidth="600.0" stylesheets="@Main01.css">
+
+    <fx:define>
+        <!--        <Insets fx:id="cell" top="5" bottom="5" left="5" right="5"></Insets>-->
+        <Insets fx:id="cell" top="5" bottom="5" left="5" right="5"></Insets>
+
+        <String fx:id="row_zero" fx:value="0"/>
+        <String fx:id="row_one" fx:value="1"/>
+        <String fx:id="row_two" fx:value="2"/>
+
+        <String fx:id="col_zero" fx:value="0"/>
+        <String fx:id="col_one" fx:value="1"/>
+        <String fx:id="col_two" fx:value="2"/>
+    </fx:define>
+    <HBox spacing="20.0" alignment="CENTER">
+        <Button text="检查(c)" fx:id="query_game"></Button>
+        <Button text="新游戏" fx:id="new_game"></Button>
+        <RadioButton text="入门" fx:id="primary" selected="true"></RadioButton>
+        <RadioButton text="简单" fx:id="simple"></RadioButton>
+        <RadioButton text="困难" fx:id="difficult"></RadioButton>
+    </HBox>
+    <GameBody styleClass="main" alignment="CENTER">
+        <GameBlock styleClass="block" GridPane.rowIndex="0" GridPane.columnIndex="0">
+            <Button text="1" GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_two"></Button>
+        </GameBlock>
+        <GameBlock styleClass="block" GridPane.rowIndex="0" GridPane.columnIndex="1">
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_two"></Button>
+        </GameBlock>
+        <GameBlock styleClass="block" GridPane.rowIndex="0" GridPane.columnIndex="2">
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_two"></Button>
+        </GameBlock>
+        <GameBlock styleClass="block" GridPane.rowIndex="1" GridPane.columnIndex="0"
+        >
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_two"></Button>
+        </GameBlock>
+        <GameBlock styleClass="block" GridPane.rowIndex="1" GridPane.columnIndex="1"
+        >
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_two"></Button>
+        </GameBlock>
+        <GameBlock styleClass="block" GridPane.rowIndex="1" GridPane.columnIndex="2"
+        >
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_two"></Button>
+        </GameBlock>
+        <GameBlock styleClass="block" GridPane.rowIndex="2" GridPane.columnIndex="0"
+        >
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_two"></Button>
+        </GameBlock>
+        <GameBlock styleClass="block" GridPane.rowIndex="2" GridPane.columnIndex="1"
+        >
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_two"></Button>
+        </GameBlock>
+        <GameBlock styleClass="block" GridPane.rowIndex="2" GridPane.columnIndex="2"
+        >
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_zero" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_one" GridPane.columnIndex="$col_two"></Button>
+
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_zero"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_one"></Button>
+            <Button GridPane.rowIndex="$row_two" GridPane.columnIndex="$col_two"></Button>
+        </GameBlock>
+    </GameBody>
+</VBox>

@@ -1,0 +1,18 @@
+.main{
+	-fx-background-color:rgba(100, 100, 100,0.5);
+}
+.block{
+	-fx-padding:5;
+}
+.block>Button{
+	-fx-font-size:20;
+	-fx-font-weight:bolder;
+	-fx-text-fill:blue;
+	-fx-background-color:white;
+}
+.block>Button:disabled{
+	-fx-opacity: 1;
+}
+.block>Button:focused{
+     -fx-background-color: -fx-focus-color, -fx-inner-border;
+ }

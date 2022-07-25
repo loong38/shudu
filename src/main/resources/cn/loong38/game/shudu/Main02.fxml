@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import cn.loong38.game.shudu.fxml.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="cn.loong38.game.shudu.Main02Controller"
+      prefHeight="400.0" prefWidth="600.0" stylesheets="@Main02.css" alignment="TOP_CENTER">
+    <fx:define>
+        <ToggleGroup fx:id="difficult"></ToggleGroup>
+    </fx:define>
+
+    <HBox spacing="20.0" alignment="CENTER">
+        <Button text="检查(c)" fx:id="query_game"></Button>
+        <Button text="新游戏" fx:id="new_game"></Button>
+        <RadioButton text="入门" fx:id="primary" toggleGroup="$difficult" selected="true"></RadioButton>
+        <RadioButton text="简单" fx:id="simple" toggleGroup="$difficult"></RadioButton>
+        <RadioButton text="困难" fx:id="hard" toggleGroup="$difficult"></RadioButton>
+    </HBox>
+
+    <GameBody fx:id="body" alignment="CENTER">
+        <GameBlock></GameBlock>
+        <GameBlock></GameBlock>
+        <GameBlock></GameBlock>
+
+        <GameBlock></GameBlock>
+        <GameBlock></GameBlock>
+        <GameBlock></GameBlock>
+
+        <GameBlock></GameBlock>
+        <GameBlock></GameBlock>
+        <GameBlock></GameBlock>
+    </GameBody>
+</VBox>
