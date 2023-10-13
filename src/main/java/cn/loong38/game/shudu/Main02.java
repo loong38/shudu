@@ -40,16 +40,16 @@ public class Main02 extends Application {
         controller.getQuery_game().setOnAction(e -> {
             boolean win = gi.queryGame();
             System.out.println(win);
-//            GameBody.arrayData.queryRow();
-//            GameBody.arrayData.queryBlock();
-//            GameBody.arrayData.queryCol();
-//            System.out.println(GameBody.arrayData.isWin());
+            GameBody.arrayData.queryRow();
+            GameBody.arrayData.queryBlock();
+            GameBody.arrayData.queryCol();
+            System.out.println(GameBody.arrayData.isWin());
         });
 
         controller.getNew_game().setOnAction(e -> {
             gi.newGame();
         });
-        stage.setTitle("Hello!");
+        stage.setTitle("数独 V1.0.0.1!");
         stage.setScene(scene);
         stage.show();
     }

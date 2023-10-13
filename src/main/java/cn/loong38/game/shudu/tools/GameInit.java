@@ -183,7 +183,6 @@ public class GameInit {
                     }
 //                    bool = false;
 //                    return bool;
-//                    asdasda
                     index++;
                 }
             }
