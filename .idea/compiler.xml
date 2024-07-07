@@ -9,8 +9,5 @@
         <module name="shudu" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="shudu" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
